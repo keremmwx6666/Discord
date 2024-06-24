@@ -27,7 +27,7 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
-    .setName('')
+    .setName(' ')
     .setDetails(`≡;- ꒰ °ғᴜʀɪɴᴀ ꒱ [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1254704772406313030/544a2751c85f75739ce8fc7b66393951.png?ex=667a7661&is=667924e1&hm=2293c7716c3896f9be4b0fb439f072616b4ca1fd67104311805f6cfca5144e04&') //You can put links in tenor or discord and etc.
