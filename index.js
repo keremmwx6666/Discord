@@ -25,15 +25,15 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=zqLMEulWcbQ') //Must be a youtube video link 
+    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
-    .setName(' ')
+    .setName('')
     .setDetails(`≡;- ꒰ °ғᴜʀɪɴᴀ ꒱ [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1254704772406313030/544a2751c85f75739ce8fc7b66393951.png?ex=667a7661&is=667924e1&hm=2293c7716c3896f9be4b0fb439f072616b4ca1fd67104311805f6cfca5144e04&') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('*:･ﾟ✧*:･ﾟ ᴋᴇʀᴇᴍᴍ 💓') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('') //Text when you hover the Small image
+    .setAssetsLargeText('*:･ﾟ✧*:･ﾟ ᴋᴇʀᴇᴍᴍ 💎') //Text when you hover the Large image
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1097132368441122879/1254709590516568175/d7fa1a62687643c64ef35ed22273c72d.png?ex=667a7add&is=6679295d&hm=1ed359db5f9b3752be7ba964b4c5c054d2461e29dbce1646b973cb1b77a81509&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText(' ') //Text when you hover the Small image
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
